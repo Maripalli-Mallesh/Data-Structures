@@ -72,7 +72,7 @@ int main() {
 
         switch (op) {
         case 1:
-            printf("Enter (Patient-Name Severity): ");
+            printf("Enter (PatientName Severity): ");
             scanf("%s %s", d, tem);
 
             if (strcmp(tem, "Critical") == 0)
